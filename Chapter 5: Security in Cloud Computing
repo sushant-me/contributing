@@ -1,0 +1,58 @@
+What is Cloud Security?
+ans: Cloud security is a set of polices, technologies, control and design procedure to protect cloud-based system, data and infrastructure from external and internal threat.
+
+Cloud security Threats:
+i. data breches
+ii. data loss
+iii. account hijacking
+iv. denial of service
+v. insecure APIs
+vi. malicious Insider
+vii. abuse of cloud services
+viii. shared technology issue
+
+What is Security as Service?
+ans: Security as Service is a cloud delivery model where third party provider integrate their security services into your infrastructure on a subscription basis. It allows organiation to outsource the management of security tools rather than maintaining the  m on- premises.
+Example
+Identity and Access management (IAM)
+Data Loss and prevention (DLP)
+Web security
+email security
+
+Benefit:
+cost effective
+constant update
+experties
+
+Dimention of security is achibved by CIA traid which mean confendentality, integraity and avaliability 
+but to achive these CIA triad we need to keep these in mind:
+i. data security
+ii. indentity and access management
+iii. application security
+iv. network security
+v. infrastrcutre security
+vi. endpoint security 
+vii. physcial security
+
+Cloud security mechanism is a specific technical control, software tool or process to implemented to enfroce security polices and protect cloud resource
+i. SOS( single sign on)
+ii. IAM( Identity and access management)
+iii. Hashing
+iv. Digital signature
+
+Distater recovery is a polices, tool or procedure to enable the recovery or continuation of vital technology infrastructure and system following a natural or human-intended disaster.
+Key
+i. RTO( Recovery time objective)
+ii. RPO ( Recovery point object)
+iii. Geo-Redundancy
+iv. Backup-stragegy
+v. fail over mechanism
+vi. disaster recovery as a service
+
+Challenges in Cloud Security
+i. lack of visibility and control
+ii. data soverinity and complicance
+iii. Shared technology issue
+iv. Insecure API
+v. Insider threat
+vi. Account Hijacking
