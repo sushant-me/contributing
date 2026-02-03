@@ -1,0 +1,107 @@
+Chapter 4: Recource Managemet
+
+Sacaling
+Scale (or scaling) is the ability of cloud computing system to increase or decrease its resources (ram , cpu, storage) automatically or manually according to the workload. It must handle growth (increase in capacity ) or Shirkage ( reduce in capacity ) without crashing the system.
+
+Scaling Strategy
+i. Manual Scaling( Human Intervention)
+ii. Scheduled Scaling ( Time based polices)
+iii. reacative scaling / Dyanamic Scaling ( if else threshold)
+iv. Predictive Scaling (Historical data)
+v. Step Scaling
+vi. Queue Scaling
+vii. Target tracking scaling
+
+Type of Scaling
+i. Vertical Scaling refers to adding more power(Resources) to exsting machine. Instead of buying new PC you add RAM, CPU or storage to make it more faster.
+use case:
+i. database
+ii. Legacy Application
+iii. Small traffic spikes
+Limitation
+i hardware limit
+ii. down time required
+iii. single point faliure
+
+ii. Horizontal scaling refers to adding more machine (instance) to your resource pool. Instead of making one server stronger, you add ten average server to work together.
+use case
+web application
+micro services
+massive traffic 
+limitation
+complexity
+code change
+network latency
+
+iii. diagonal scaling is combination of both verticle scaling and horizontal scaling . You scale up the individual server first (vertical) until it hit cost/perfomance limit and then clone it to add more server.
+use case
+i. complex enterprise system
+ii. cost optimization
+ limitaion
+i. management difficulty 
+ii. vendor constraints
+
+Load Balancing is the process of efficently distributing incoming network traffic across a group of backend server ( also known as server farm or server pool). It acts as a "reverse proxy" that sits infront of the server and route client request to all server capable of fulfiling those request in a manner that maximizes speed and capacity utilization.
+Key function
+distributed traffic
+health check
+high avaliability
+scalability
+
+load balancing algorithm
+round robin
+least constraint
+IP hash
+
+Type
+Layer 4
+Layer 7
+
+Redundancy is a dupilcation of critical component or function of a system with the intention of increasing reliability of the system. It implies having "extra" resource ( hard drive , ram , server , network cables) ready to take over if the primary resouce fails
+type
+active-active
+active-passive
+geological redundancy
+
+High Avaiablity (HA) referes to system that are durable and likely to operate continuosly without failure for a long time. It is usually measured in "nines" ( eg 99.999%).
+metrics
+uptime
+MTBF(mean time Between Failure)
+MTTR( mean time to recovery)
+
+HA is Achived
+eliminate single point of failure
+fail over
+load balancing
+
+Cloud monitorng Mechanism
+i. cloud  usuage monitor
+ii. Automated scaling listener
+iii. Load balancer
+iv. Audit monitor
+v. Pay-per -use monitor
+
+A Service level agreement (SLA) is a formal ,  negotiated contract between the cloud service provider and cloud consumer. It document specific services, perfomance standard ( quality of service) , and the penalties if those standard are not met.
+key component
+Uptime Guarantee
+Metrics
+Penalties
+exclusion
+
+Type of SLA
+Service-based SLA
+consumer-based sla
+multi-level sla
+
+A billing management system is a software component in the cloud architecture that is responsible for monitoring resources usuage , calculating cost based in pricing model, generating invoices and payements.It acts as a bridge between technical usuage monitor and financial revenue
+Key functions
+resourece monitoring
+rating and pricing model
+cost allocation
+invoifng 
+payement processing
+bridging and alert
+report and analyties
+dispute management
+
+
