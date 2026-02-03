@@ -1,0 +1,11 @@
+Chapter 3
+storage in cloud computing
+
+Database as a service (DBaas) is a cloud computing service model that provides user with access to a database without need of setting up physical hardware, installing software or configuring performance. The cloud provider manages administrative tasks ( backups , patches , upgrades), while the users simply uses the database to store or retrive data
+
+Automated management
+Seamless scalability
+high avalability
+automated backup
+Build in security
+cost effectiveness
