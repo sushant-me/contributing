@@ -9,3 +9,48 @@ high avalability
 automated backup
 Build in security
 cost effectiveness
+
+A Distributed File System (DFS) is a client/server-based application that allows clients to access and process data stored on the server as if it were on their own local computer. It manages data that is physically stored across multiple networked computers (nodes) but presents a single, unified view to the user.
+Network Transparency
+Location Independence
+Scalability
+Fault Tolerance
+Concurrency
+
+A Parallel File System (PFS) is a type of distributed file system designed to handle massive amounts of data by spreading individual files across multiple storage nodes (striping). It allows multiple storage servers to write different parts of the same file simultaneously to maximize Input/Output (I/O) speed.
+
+key characterstics:
+Data Striping
+Concurrent Access
+Direct I/O
+Complex Locking
+Metadata Separation
+
+Block Storage splits data into fixed-sized blocks (e.g., 4KB) and stores them as separate pieces. Each block has a unique identifier but no metadata. The operating system treats these blocks as a raw physical hard drive (Volume) and manages the file structure itself.
+key feature:
+High Performance
+Bootable
+Granular Control
+Protocol Dependent
+
+File Storage stores data as a single piece of information in a hierarchical folder structure. It functions like a Network Attached Storage (NAS) server, allowing multiple clients to access and share files over a network simultaneously.
+Hierarchical Structure
+Shared Access
+Standard Protocols
+File Locking
+User-Friendly
+
+Object Storage manages data as objects, not files or blocks. Each object includes the data itself, a variable amount of metadata (custom tags), and a globally unique identifier (ID). It stores data in a flat address space (no folders), making it infinitely scalable.
+
+Archive Storage is a specialized class of object storage optimized for data that is rarely accessed (cold data) and requires long-term retention. It offers the lowest cost but has higher latency for data retrieval.
+
+Elastic Storage is the ability of a cloud storage system to automatically provision and de-provision storage capacity in response to real-time application demands. It ensures that the available storage matches the current data volume without human intervention.
+
+Data Redundancy is the practice of storing the same data in multiple distinct places (locations or physical drives) to protect against data loss and ensure high availability. If one component fails, the redundant copy takes over.
+
+Relational Databases (RDBMS) store data in a structured format using rows and columns (tables). They enforce a strict Schema (blueprint) and use SQL (Structured Query Language) for defining and manipulating data. They focus on ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure data reliability.
+
+NoSQL (Not Only SQL) databases are non-tabular databases that store data in formats like documents, key-values, or wide-columns. They are designed for flexibility, horizontal scalability, and high performance with massive amounts of unstructured data.
+
+Graph Databases use graph structures (Nodes, Edges, and Properties) to represent and store data. They treat relationships between data as first-class citizens, making them ideal for analyzing highly interconnected datasets.
+
