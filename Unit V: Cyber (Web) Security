@@ -1,0 +1,34 @@
+Web security approaches are classifiend by TCP/IP stack where security services sre applied: Network Level(IPSec), Transport Level ( SSL/TLS) or Application Level (S/MIMS,PGP)
+3 Approaches are:
+i. Network level
+ii. Transport level
+iii. Application Level
+
+SSL architecture
+1.IP
+2. TCP
+3. SSL recorder protocol
+4. SSL handshake protocol
+5. SSL cipher change spec
+6. SSL Alert protocol
+7. HTTP
+
+Transport Layer Security (TLS) is a cryptographic protocol designed to provide secure, encrypted communication over a computer network, most notably the internet. 
+Phase 1: etablish capabilities
+Phase 2: Sever Authentication
+Phase 3:Cliet Authentication and key exchange
+Phase 4: finish
+
+IPSec is a suit of protocol that provides security services at IP layer( network layer 3). It secures all traffic passing through the network , transparent to application using authentication header (ah) and encapsulating security playload (ESP)
+IPSec type
+IPSec transport mode
+IPSec tunnel mode
+
+Pretty good privacy                                          Secure/MIME
+trust: web of trust                                          Centralized authority
+key use: personal security                                   coperate Security
+integration : often require a seperate plugin                build-in outlook
+content type: handel text well                                espically for multimedia
+algorithm: uses own unique key                                X.509 Certificate
+cost: Usally free                                             certificate usually cost money
+
