@@ -1,0 +1,49 @@
+OWASAP
+The OWASAP ( Open Web Application Security Project)  TOP 10  is a standard awareness document for developer and web application security. It represents a board consensus about the most critical security risk to web application
+The 8 key risks
+i. Broken acess control
+ii. cryptographic failure
+iii. injection(SQLiject, XSS)
+iv. Insecure Design
+v. vulnerable and outdated component
+vi. server side request forgivery
+vii. Security misconfiguration
+vii. identification and authorization failure
+
+The web security maintainace is a layered apporoach including rigours authentication, data verification, secure session management and comprehensive auditing to mitigate vulnerabilities and ensure confidentiality, intergrity and avaialbility
+1. strong authentication
+ii. strict authorization
+iii. input validation
+iv. data protection in transit
+v. secure session management
+vi proper error handling
+vii. auditing and logging
+viii output encoding
+
+Broken Access control occurs when user can act outside their intened permission leading to unauthorized information disclosure, modification or destruction of data.
+i.IDOR
+ii.privilege escalation
+iii.missing function level acess control
+iv.cors misconfiguration
+v. metadata manipulation
+
+Various failure
+cryptographic failure
+identification and authentication failure
+software and data integrity failure
+security loggin and monitoring failure
+
+type of injection
+i.XSS injection
+ii. command injection
+iii. LDAP injection
+iv. XML injection
+v. Server side template injection
+
+Server side request forgivery is an attack where the attack request the server side application to make a request to an unintended location, often to access internal resource behind a firewall.
+i. input validation
+ii. whitelisting
+iii. firewall Rules
+iv. use of safe API
+v. Least privilage
+
