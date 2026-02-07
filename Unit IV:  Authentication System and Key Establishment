@@ -1,0 +1,1 @@
+A Hash Function is a mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size (the hash value or digest). It is designed to be a one-way function, meaning it is computationally infeasible to invert.
