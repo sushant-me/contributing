@@ -1,0 +1,22 @@
+Public key crptography resove the key distribution problem of symmetric Encryption by using a pair of key: a public key for encryption (distrubuted to anyone ) and a private key for decryption (kept secret by owner).
+plaintext-encrypting algorithm(public key)-clipher text-decrypting algorithm(private key)-plain text
+
+RSA algorithm
+Phase 1: Key generation
+i. select two prime number
+ii. calculate n = p*q
+iii. calculate euler totient
+iv. select public key
+v. calculate private key
+
+Phase 2: Encryption
+C =m^e (mod o/ n)
+
+Phase 3: Decryption
+M = C^d (mod n)
+
+3 asymetric 
+i. Diffie-Hellman key exchange
+ii. ElGamal Encryption
+iii. Ellictive  Curve Cryptography
+
