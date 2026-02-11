@@ -5,4 +5,5 @@ Feb 4 enteperneure
 cybersecurity
 all study material
 data science
+generative ai
 economics
