@@ -7,4 +7,4 @@ all study material
 data science
 generative ai
 economics II
-
+generating AI
