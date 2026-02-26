@@ -8,3 +8,4 @@ data science
 generative ai
 economics II
 generating AI
+lets prepare make the best perfect
