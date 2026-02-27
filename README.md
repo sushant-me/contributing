@@ -9,3 +9,4 @@ generative ai
 economics II
 generating AI
 lets prepare make the best perfect
+cybersecurity economics lets do it
